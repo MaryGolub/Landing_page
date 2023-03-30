@@ -1,0 +1,103 @@
+.services {
+  padding-top: 108px;
+  padding-bottom: 52px;
+  border-bottom: 1px solid #ececec;
+}
+
+/* Левая сторона */
+
+.services__left {
+  flex: 1 1 502px;
+  max-width: 502px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+
+.services__heading {
+  font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  position: relative;
+  bottom: 6px;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+  font-size: 42px;
+}
+
+.services__text {
+  font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+
+.achion-button_button_white {
+  font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FF2D2D;
+  background-color: #FFFFFF;
+  border: 2px solid #FF0000;
+}
+
+/* Правая сторона */
+
+.services__right {
+  flex: 1 1;
+  max-width: 610px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 36px;
+}
+
+.service {
+  flex: 1 1 288px;
+  width: 288px;
+  margin-bottom: 50px;
+  margin-left: 16px;
+}
+
+.service__heading {
+  font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 12px;
+  letter-spacing: 1.5px;
+}
+
+.service__heading::before {
+  display: block;
+  width: 41px;
+  height: 41px;
+  margin-bottom: 22px;
+}
+
+.service__text {
+  font-family: 'OpenSans', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  margin: 0;
+}
+
+.service__heading_manage::before {
+  content: url('../images/1.svg');
+}
+
+.service__heading_design::before {
+  content: url('../images/2.svg');
+}
+
+.service__heading_logo::before {
+  content: url('../images/3.svg');
+}
+
+.service__heading_anim::before {
+  content: url('../images/4.svg');
+}
